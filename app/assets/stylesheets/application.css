@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap'); */
+
+body {
+  background: no-repeat center center fixed;
+  background-size: cover;
+  background-image: url('cooking-up.png')
+}
+
+h1 {
+  font-family: 'Rampart One';
+  font-size: 10em;
+  color: #CCAC58;
+  position: absolute; /* or absolute */
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  /* margin-left: -20px; */
+  transform: translate(-50%, -50%);
+}
