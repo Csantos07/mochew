@@ -23,6 +23,30 @@ body {
   height: 100vh;
 }
 
+.mobile {
+  position: relative;
+  top: 10rem;
+}
+
+nav {
+  border-bottom: solid white 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_img {
+  padding-top: .8rem;
+  padding-left: .5rem;
+  width: 8rem;
+}
+
+.hamburger-menu {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
 h1 {
   font-family: 'Rampart One';
   font-size: 5em;
@@ -33,14 +57,9 @@ h1 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  /* position: absolute; or absolute */
-  /* top: 5%; */
 }
 .center {
-  /* margin: auto;
-  width: fit-content; */
   display: flex;
-  /*  justify-content: center; */
   align-items: center; 
   flex-direction: column;
 }
@@ -54,5 +73,4 @@ button {
   padding: .5rem;
   border-radius: .3rem;
   width: 9rem;
-  /* width: 100%; */
 }
