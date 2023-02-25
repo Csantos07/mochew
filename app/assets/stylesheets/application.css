@@ -28,12 +28,21 @@ h1 {
   font-size: 5em;
   color: #CCAC58;
   margin-top: 0;
+  position: relative;
+  top: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   /* position: absolute; or absolute */
   /* top: 5%; */
 }
 .center {
-  margin: auto;
-  width: fit-content;
+  /* margin: auto;
+  width: fit-content; */
+  display: flex;
+  /*  justify-content: center; */
+  align-items: center; 
+  flex-direction: column;
 }
 h2 {
   color: #CCAC58;
@@ -44,4 +53,6 @@ button {
   background-color: #CCAC58;
   padding: .5rem;
   border-radius: .3rem;
+  width: 9rem;
+  /* width: 100%; */
 }
