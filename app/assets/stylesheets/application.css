@@ -21,6 +21,7 @@ body {
   background-size: cover;
   background-image: url('cooking-up-mobile.png');
   height: 100vh;
+  max-height: 100vh;
 }
 
 .mobile {
