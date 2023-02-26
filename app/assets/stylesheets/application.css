@@ -75,3 +75,43 @@ button {
   border-radius: .3rem;
   width: 9rem;
 }
+
+.toggle-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+  /* border: 0.2rem solid black; */
+}
+
+.stroke {
+  width: 2rem;
+  height: 0.3rem;
+  background-color: #CCAC58;
+  border-radius: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  transition: all .5s ease-in-out;
+}
+
+.stroke::before,
+.stroke::after {
+  content: '';
+  position: absolute;
+  width: 2rem;
+  height: 0.3rem;
+  background-color: #CCAC58;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  border-radius: 1rem;
+ }
+
+.stroke::before {
+  transform: translateY(-0.5rem);
+}
+
+.stroke::after {
+  transform: translateY(0.5rem);
+} 
