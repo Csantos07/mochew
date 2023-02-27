@@ -16,15 +16,17 @@ document.addEventListener('DOMContentLoaded', function () {
   console.log("hello world!")
 
   const menuBtn = document.querySelector('.toggle-button');
-  console.log(menuBtn)
+  const dropdown = document.querySelector('.dropdown');
   let menuOpen = false;
 
   menuBtn.addEventListener('click', () => {
     if (!menuOpen) {
       menuBtn.classList.add('open');
+      dropdown.classList.remove('hidden');
       menuOpen = true;
     } else {
       menuBtn.classList.remove('open');
+      dropdown.classList.add('hidden')
       menuOpen = false;
     }
   })

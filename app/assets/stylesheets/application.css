@@ -135,13 +135,17 @@ button {
 .dropdown {
   background-color: rgba(0, 0, 0, 0.621);
   color: white;
-  /* width: 30%; */
-  /* position: absolute; */
-  /* right: 0; */
+  width: 100%;
+  position: absolute;
+  /* top: 0.9rem; */
   text-align: center;
 }
 
 .dropdown div {
   border-bottom: 0.01rem white solid;
   padding: 1rem 2rem;
+}
+
+.dropdown.hidden {
+  display: none;
 }
