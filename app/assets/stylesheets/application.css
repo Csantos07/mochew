@@ -131,3 +131,17 @@ button {
 .toggle-button.open .stroke::after {
   transform: rotate(-45deg) translate(35px, 35px);
 }
+
+.dropdown {
+  background-color: rgba(0, 0, 0, 0.621);
+  color: white;
+  /* width: 30%; */
+  /* position: absolute; */
+  /* right: 0; */
+  text-align: center;
+}
+
+.dropdown div {
+  border-bottom: 0.01rem white solid;
+  padding: 1rem 2rem;
+}
