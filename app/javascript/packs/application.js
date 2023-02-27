@@ -11,3 +11,21 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+document.addEventListener('DOMContentLoaded', function () {
+  console.log("hello world!")
+
+  const menuBtn = document.querySelector('.toggle-button');
+  console.log(menuBtn)
+  let menuOpen = false;
+
+  menuBtn.addEventListener('click', () => {
+    if (!menuOpen) {
+      menuBtn.classList.add('open');
+      menuOpen = true;
+    } else {
+      menuBtn.classList.remove('open');
+      menuOpen = false;
+    }
+  })
+});
