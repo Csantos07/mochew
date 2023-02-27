@@ -25,8 +25,9 @@ document.addEventListener('DOMContentLoaded', function () {
       dropdown.classList.remove('hidden');
       menuOpen = true;
     } else {
+      dropdown.classList.add('fast');
       menuBtn.classList.remove('open');
-      dropdown.classList.add('hidden')
+      dropdown.classList.add('hidden');
       menuOpen = false;
     }
   })
