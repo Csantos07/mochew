@@ -151,7 +151,7 @@ button {
   transition: all .5s ease;
 }
 
-.dropdown div {
+.dropdown a {
   border-bottom: 0.01rem rgba(0, 0, 0, 0.376) solid;
   padding: 1rem 2rem;
   font-family: 'Rampart One';

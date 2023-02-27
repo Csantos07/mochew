@@ -18,9 +18,10 @@
       </div>
     </nav>
     <section class="dropdown hidden">
-      <a href="#"><div>Menu</div></a>
-      <a href="#"><div>Order</div></a>
-      <a href="#"><div>About</div></a>
+      <div><%= link_to 'Menu', menu_path %></div>
+      <div><%= link_to 'Order', order_path %></div>
+      <div><%= link_to 'About', about_path %></div>
+      <div><%= link_to 'Cheat Codes', cheat_codes_path %></div>
     </section>
     <%= yield %>
   </body>

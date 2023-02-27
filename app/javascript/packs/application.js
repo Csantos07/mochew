@@ -13,8 +13,6 @@ Turbolinks.start()
 ActiveStorage.start()
 
 document.addEventListener('DOMContentLoaded', function () {
-  console.log("hello world!")
-
   const menuBtn = document.querySelector('.toggle-button');
   const dropdown = document.querySelector('.dropdown');
   let menuOpen = false;
