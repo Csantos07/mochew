@@ -133,7 +133,7 @@ button {
 }
 
 .dropdown {
-  background-color: rgba(0, 0, 0, 0.621);
+  background-color: rgba(0, 0, 0, 0.342);
   color: white;
   width: 100%;
   position: absolute;
@@ -142,8 +142,10 @@ button {
 }
 
 .dropdown div {
-  border-bottom: 0.01rem white solid;
+  border-bottom: 0.01rem rgba(0, 0, 0, 0.559) solid;
   padding: 1rem 2rem;
+  font-family: 'Rampart One';
+  font-size: 1.7rem;
 }
 
 .dropdown.hidden {
